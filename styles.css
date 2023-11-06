@@ -172,13 +172,18 @@ footer-wrapper p {
   gap: 1rem;
 }
 .nosotros-cartel {
-  height: 50vh;
+  height: 45vh;
   width: 140vh;
   justify-content: center;
   transition-duration: 2s;
   transition-delay: 0s;
   transition-property: all;
   transition-timing-function: ease;
+}
+
+.nosotros-cartel:hover {
+  transform: rotate(360deg);
+  box-shadow: 3px 3px 2px 5px;
 }
 
 @media (min-width: 1200px) {
@@ -189,8 +194,8 @@ footer-wrapper p {
     align-items: center;
   }
   .nosotros-cartel {
-    height: 50vh;
-    width: 140vh;
+    height: 46;
+    width: 145vh;
   }
 }
 .nos {

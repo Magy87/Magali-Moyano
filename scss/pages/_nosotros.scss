@@ -10,7 +10,7 @@
     }
 
     &-cartel {
-        height: 50vh;
+        height: 45vh;
         width: 140vh;
         justify-content: center;
         transition-duration: 2s;
@@ -18,6 +18,11 @@
         transition-property: all;
         transition-timing-function: ease;
     }
+}
+
+.nosotros-cartel:hover {
+    transform: rotate(360deg);
+    box-shadow: 3px 3px 2px 5px;
 }
 
 @include mq-lg {
@@ -28,8 +33,8 @@
         align-items: center;
 
         &-cartel {
-            height: 50vh;
-            width: 140vh;
+            height: 46;
+            width: 145vh;
         }
     }
 }
