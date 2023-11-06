@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Formulario para poder preguntar o consultar de lo que usted desee">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Taller Mecanica Bono | Formulario de consulta</title>
 </head>
 
 <body>
@@ -18,7 +21,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-black ">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="../img/Logo.jpg" alt="logo" class="w-25  h-25  ">
+                    <img src="../img/Logo-2.png" alt="logo" class="w-25  h-25  ">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -29,7 +32,7 @@
                             <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                             <a class="nav-link" href="./nosotros.html">Nosotros</a>
                             <a class="nav-link  " href="./servicios.html">Servicios</a>
-                            <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+                            <a class="nav-link" href="./ubicacion.html">Ubicación</a>
                             <a class="nav-link active " href="./ubicacion.html">Contacto</a>
                             <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
                         </div>
@@ -38,63 +41,84 @@
         </nav>
     </hedear>
 
-    <main class="colors" >
+    <main class="colors">
 
         <section>
             <h2 class="titulo">
                 FORMULARIO DE CONTACTO
             </h2>
-         
-            <P>
+
+            <P class="formulario">
                 Por favor; envie su consulta
             </P>
-            <br>
-            <form action="">
+
+            <form class="formulario-lista" action="">
                 <div>
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre">
+                    <input type="text" id="nombre" placeholder="Nombre">
                 </div>
-                <Br>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="nombre" placeholder="Apellido">
+                </div>
                 <div>
                     <label for="telefono"> Telefono</label>
-                    <input type="tel" id="telefono">
+                    <input type="tel" id="telefono" placeholder="Telefono">
                 </div>
-                <Br>
                 <div>
                     <label for="email"> Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" placeholder="Email">
                 </div>
-                <Br>
-                <div >
-                    <label for="mensaje"> Mensaje</label>
-                    <input type="text" id="mensaje">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Escriba aqui su comentario</label>
                 </div>
-                <Br>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
-        </section>
-        <br><br>
-        <section>
-            <img class="banco-llave" src="../img/caja-herramientas.jpg" alt="banco-llave">
-        </section>
-    </main>
-   
-    <footer class="footer">
-        <div>
-            <ul>
-                <li><a href="./ubicacion.html"> DIRECCION: Argensola 511</a></li>
-                <li><a href="./ubicacion.html"> TELEFONO: 351-3061466</a></li>
-                <li><a href="./ubicacion.html"> EMAIL: mecanicaabonoo@gmail.com</a></li>
-                <li>HORARIO DE ATENCION: Lunes a Viernes de 8:00 Hs a 17:00Hs</li>
-            </ul>
-        </div>
 
+            </form>
+            <section class="btn">
+                <button type="button" class="btn btn-outline-success   justify-content-md-center">Enviar</button>
+
+            </section>
+
+            <div class="formulario-imagen">
+                <img class="martin" src="../img/Martin2.jpeg" alt="Martin-hablando">
+                <img class="taller" src="../img/gancho.jpg" alt="gancho-taller">
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-wrapper">
+            <div> <img class="logo" src="../img/Logo-2.png" alt="logo">
+            </div>
+            <div class="footer-info">
+                <h4>Información</h4>
+                <p> DIRECCION: Argensola 511</p>
+                <p>TELEFONO: 351-3061466</p>
+                <p> EMAIL: mecanicaabonoo@gmail.com</p>
+                <p>HORARIO DE ATENCION: Lunes a Viernes de 8:00 Hs a 17:00Hs</p>
+            </div>
+
+            <div class="footer-redes">
+                <h4>Redes Sociales</h4>
+                <ul class="redes2">
+                    <li> <a href=""> <i class="bi bi-facebook"></i></a> Facebook</li>
+                    <li> <a href=""> <i class="bi bi-instagram"></i> </a> Instagram</li>
+                    <li> <a href=""> <i class="bi bi-whatsapp"></i></a> Whatsapp</li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copy">
+            Magali Moyano | Todos los derechos reservados
+        </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

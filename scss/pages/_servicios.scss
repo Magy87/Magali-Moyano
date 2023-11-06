@@ -1,0 +1,90 @@
+.servicios {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 1rem;
+    font-size: 1rem;
+
+    &-subtitulo {
+        font-size: 1.5em;
+        color: white;
+        background-image: linear-gradient(70deg, rgb(173, 172, 172), rgb(53, 52, 52), rgb(173, 172, 172));
+        text-align: center;
+    }
+
+    &-lista {
+        text-align: center;
+        list-style-type: none;
+    }
+}
+
+@include mq-lg {
+    .servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        padding: 1rem 1rem 1rem;
+
+        &-subtitulo {
+            font-size: 2em;
+        }
+    }
+}
+
+// IMAGENES
+
+.imagenes {
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
+    &-servicios {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+}
+
+.elevador {
+    width: 400px;
+    height: 200px;
+    padding: 1rem;
+}
+
+.reparar {
+    width: 500px;
+    height: 200px;
+    padding: 1rem;
+}
+
+@include mq-lg {
+    .imagenes-servicio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@include mq-lg {
+    .elevador {
+        width: 700px;
+        height: 400px;
+        padding: 1rem;
+    }
+
+    .elevador:hover {
+        @include anima;
+    }
+
+    .reparar {
+        width: 700px;
+        height: 400px;
+        padding: 1rem;
+    }
+
+    .reparar:hover {
+        @include anima;
+    }
+}

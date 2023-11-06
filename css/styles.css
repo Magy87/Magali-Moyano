@@ -40,6 +40,8 @@ img {
     margin: 1px;
   }
 }
+
+
 .portada {
   padding: 1rem;
   display: flex;
@@ -70,15 +72,10 @@ img {
 
 .portada-foto:hover {
   transform: rotate(360deg);
-  box-shadow: 5px 5px 4px 7px;
+  box-shadow: 3px 3px 2px 5px;
 }
 
 @media (min-width: 1200px) {
-  .portada-titulo {
-    font-size: 4.5rem;
-  }
-}
-@media (min-width: 768px) {
   .portada {
     flex-direction: row;
     min-height: 80vh;
@@ -86,16 +83,19 @@ img {
     flex-direction: column;
     align-items: center;
   }
-}
-@media (min-width: 1200px) {
+  .portada-titulo {
+    font-size: 4.5rem;
+  }
+  .portada-descipcion {
+    font-size: 0.5rem;
+  }
   .portada-foto {
     width: 120vh;
     height: 50vh;
   }
-}
-@media (min-width: 1200px) {
-  .portada-descipcion {
-    font-size: 0.5rem;
+  .portada-foto:hover {
+    transform: rotate(360deg);
+    box-shadow: 5px 5px 4px 7px;
   }
 }
 .nosotros {
@@ -110,25 +110,30 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: justify;
   gap: 1rem;
 }
 .nosotros-cartel {
-  height: 60vh;
-  width: 150vh;
+  height: 50vh;
+  width: 140vh;
   justify-content: center;
   transition-duration: 2s;
-  transition-delay: 1s;
+  transition-delay: 0s;
   transition-property: all;
   transition-timing-function: ease;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .nosotros {
     flex-direction: row;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .nosotros-cartel {
+    height: 60vh;
+    width: 170h;
   }
 }
 .nos {
@@ -145,13 +150,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-.nos-foto2:hover :active {
-  transition-duration: 2s;
-  transition-delay: 1s;
-  transition-property: all;
-  transition-timing-function: ease;
 }
 
 @media (min-width: 1200px) {
@@ -288,4 +286,4 @@ img {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
