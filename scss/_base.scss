@@ -9,6 +9,7 @@ $color-titulo: red;
 
 img {
     max-width: 100%;
+ 
 }
 
 .colors {
@@ -33,7 +34,7 @@ img {
 }
 
 @mixin mq-lg {
-    @media (min-width: 1200px) {
+    @media (min-width: 1000px) {
         @content;
     }
 }

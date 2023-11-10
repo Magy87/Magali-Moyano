@@ -34,17 +34,11 @@
 
         &-titulo {
             font-size: 4.5rem;
+            transition: 1s linear;
         }
 
         &-descipcion {
             font-size: .5rem;
         }
-
-        
-        }
     }
-
-    .portada-foto:hover {
-        transform: rotate(360deg);
-        box-shadow: 5px 5px 4px 7px;
-    }
+}

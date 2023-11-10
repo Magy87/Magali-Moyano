@@ -94,7 +94,7 @@ footer-wrapper p {
   list-style-type: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .footer-wrapper {
     flex-direction: row;
     justify-content: space-between;
@@ -137,7 +137,7 @@ footer-wrapper p {
   box-shadow: 3px 3px 2px 5px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .portada {
     min-height: 80vh;
     display: flex;
@@ -146,16 +146,12 @@ footer-wrapper p {
   }
   .portada-titulo {
     font-size: 4.5rem;
+    transition: 1s linear;
   }
   .portada-descipcion {
     font-size: 0.5rem;
   }
 }
-.portada-foto:hover {
-  transform: rotate(360deg);
-  box-shadow: 5px 5px 4px 7px;
-}
-
 .nosotros {
   padding: 1rem;
   display: flex;
@@ -172,16 +168,19 @@ footer-wrapper p {
   gap: 1rem;
 }
 .nosotros-cartel {
-  height: 50vh;
+  height: 45vh;
   width: 140vh;
   justify-content: center;
   transition-duration: 2s;
-  transition-delay: 0s;
   transition-property: all;
-  transition-timing-function: ease;
+  transition-timing-function: linear;
 }
 
-@media (min-width: 1200px) {
+.nosotros-cartel:hover {
+  box-shadow: 3px 3px 2px 5px;
+}
+
+@media (min-width: 1000px) {
   .nosotros {
     min-height: 50vh;
     display: flex;
@@ -189,8 +188,8 @@ footer-wrapper p {
     align-items: center;
   }
   .nosotros-cartel {
-    height: 50vh;
-    width: 140vh;
+    height: 46;
+    width: 145vh;
   }
 }
 .nos {
@@ -213,7 +212,7 @@ footer-wrapper p {
   object-fit: cover;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .nos-fotos {
     display: grid;
     justify-items: center;
@@ -242,7 +241,7 @@ footer-wrapper p {
   height: 300px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .nos-amarok {
     width: 450px;
     height: 350px;
@@ -300,9 +299,10 @@ footer-wrapper p {
 .servicios-lista {
   text-align: center;
   list-style-type: none;
+  word-spacing: 5px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .servicios {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -339,13 +339,13 @@ footer-wrapper p {
   padding: 1rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .imagenes-servicio {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .elevador {
     width: 700px;
     height: 400px;
@@ -372,7 +372,7 @@ footer-wrapper p {
 .ubicacion {
   display: flex;
   text-align: start;
-  flex-direction: column;
+  justify-content: space-evenly;
   gap: 1.5rem;
   padding: 1rem;
 }
@@ -380,6 +380,7 @@ footer-wrapper p {
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1rem;
   font-size: 1rem;
 }
@@ -390,10 +391,13 @@ footer-wrapper p {
   text-align: start;
   gap: 1rem;
 }
-@media (min-width: 1200px) {
-  .ubicacion .ubicacion-mapa {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+@media (min-width: 1000px) {
+  .ubicacion .ubicacion {
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding: 1rem;
   }
   .ubicacion .ubicacion-info {
     font-size: 1.3rem;
@@ -408,7 +412,7 @@ footer-wrapper p {
   width: 10rem;
   height: 10rem;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .ubicacion .mapa {
     width: 20rem;
     height: 20rem;
@@ -430,7 +434,7 @@ footer-wrapper p {
   gap: 1.5rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .formulario {
     font-size: 1.5rem;
   }
