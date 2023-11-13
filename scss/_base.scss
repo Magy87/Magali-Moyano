@@ -9,7 +9,7 @@ $color-titulo: red;
 
 img {
     max-width: 100%;
- 
+
 }
 
 .colors {
@@ -21,6 +21,7 @@ img {
     color: $color-titulo;
     font-size: 1.9rem;
     font-weight: bold;
+    text-shadow: 1px 4px grey;
 }
 
 @media(min-width: 1200px) {
@@ -49,7 +50,7 @@ img {
 }
 
 @mixin anima {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;

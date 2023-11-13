@@ -15,7 +15,7 @@
     &-lista {
         text-align: center;
         list-style-type: none;
-        word-spacing: 5px;
+        word-spacing: 4px;
     }
 }
 
@@ -29,6 +29,7 @@
 
         &-subtitulo {
             font-size: 2em;
+            margin: 2px;
         }
     }
 }
@@ -40,7 +41,7 @@
     background-color: black;
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap: 2rem;
 
     &-servicios {
         display: flex;

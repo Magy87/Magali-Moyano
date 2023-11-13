@@ -8,22 +8,18 @@
         text-align: justify;
         gap: 1rem;
     }
-// &-cartel{
-//     object-fit: cover;
-// }
+
     &-cartel {
         height: 45vh;
         width: 140vh;
-       
-         justify-content: center;
-         transition-duration: 2s;
+        justify-content: center;
+        transition-duration: 2s;
         transition-property: all;
-         transition-timing-function: linear;
+        transition-timing-function: linear;
     }
 }
 
 .nosotros-cartel:hover {
-
     box-shadow: 3px 3px 2px 5px;
 }
 

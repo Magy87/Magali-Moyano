@@ -18,6 +18,7 @@ img {
   color: red;
   font-size: 1.9rem;
   font-weight: bold;
+  text-shadow: 1px 4px grey;
 }
 
 @media (min-width: 1200px) {
@@ -121,6 +122,7 @@ footer-wrapper p {
   text-align: center;
   justify-content: center;
   font-weight: bold;
+  text-shadow: 1px 2px black;
   font-size: 1.8rem;
   transition: 1s linear;
 }
@@ -147,6 +149,7 @@ footer-wrapper p {
   .portada-titulo {
     font-size: 4.5rem;
     transition: 1s linear;
+    text-shadow: 3px 6px black;
   }
   .portada-descipcion {
     font-size: 0.5rem;
@@ -247,7 +250,7 @@ footer-wrapper p {
     height: 350px;
   }
   .nos-amarok:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -257,7 +260,7 @@ footer-wrapper p {
     height: 340px;
   }
   .nos-c4:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -267,7 +270,7 @@ footer-wrapper p {
     height: 350px;
   }
   .nos-fluence:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -277,7 +280,7 @@ footer-wrapper p {
     height: 350px;
   }
   .nos-208:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -299,7 +302,7 @@ footer-wrapper p {
 .servicios-lista {
   text-align: center;
   list-style-type: none;
-  word-spacing: 5px;
+  word-spacing: 4px;
 }
 
 @media (min-width: 1000px) {
@@ -312,6 +315,7 @@ footer-wrapper p {
   }
   .servicios-subtitulo {
     font-size: 2em;
+    margin: 2px;
   }
 }
 .imagenes {
@@ -352,7 +356,7 @@ footer-wrapper p {
     padding: 1rem;
   }
   .elevador:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -363,7 +367,7 @@ footer-wrapper p {
     padding: 1rem;
   }
   .reparar:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
