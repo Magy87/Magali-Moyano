@@ -25,7 +25,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 1rem;
-        padding: 1rem 1rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
 
         &-subtitulo {
             font-size: 2em;
@@ -51,14 +51,14 @@
 }
 
 .elevador {
-    width: 400px;
-    height: 200px;
+    // width: 400px;
+    // height: 200px;
     padding: 1rem;
 }
 
 .reparar {
-    width: 500px;
-    height: 200px;
+    // width: 500px;
+    // height: 200px;
     padding: 1rem;
 }
 
@@ -71,8 +71,8 @@
 
 @include mq-lg {
     .elevador {
-        width: 700px;
-        height: 400px;
+        // width: 700px;
+        // height: 400px;
         padding: 1rem;
     }
 
@@ -81,8 +81,8 @@
     }
 
     .reparar {
-        width: 700px;
-        height: 400px;
+        // width: 700px;
+        // height: 400px;
         padding: 1rem;
     }
 

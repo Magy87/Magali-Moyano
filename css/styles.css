@@ -171,8 +171,6 @@ footer-wrapper p {
   gap: 1rem;
 }
 .nosotros-cartel {
-  height: 45vh;
-  width: 140vh;
   justify-content: center;
   transition-duration: 2s;
   transition-property: all;
@@ -189,10 +187,6 @@ footer-wrapper p {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .nosotros-cartel {
-    height: 46;
-    width: 145vh;
   }
 }
 .nos {
@@ -250,7 +244,7 @@ footer-wrapper p {
     height: 350px;
   }
   .nos-amarok:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -260,7 +254,7 @@ footer-wrapper p {
     height: 340px;
   }
   .nos-c4:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -270,7 +264,7 @@ footer-wrapper p {
     height: 350px;
   }
   .nos-fluence:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -280,7 +274,7 @@ footer-wrapper p {
     height: 350px;
   }
   .nos-208:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
@@ -311,7 +305,7 @@ footer-wrapper p {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
-    padding: 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
   }
   .servicios-subtitulo {
     font-size: 2em;
@@ -332,14 +326,10 @@ footer-wrapper p {
 }
 
 .elevador {
-  width: 400px;
-  height: 200px;
   padding: 1rem;
 }
 
 .reparar {
-  width: 500px;
-  height: 200px;
   padding: 1rem;
 }
 
@@ -351,23 +341,19 @@ footer-wrapper p {
 }
 @media (min-width: 1000px) {
   .elevador {
-    width: 700px;
-    height: 400px;
     padding: 1rem;
   }
   .elevador:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
   }
   .reparar {
-    width: 700px;
-    height: 400px;
     padding: 1rem;
   }
   .reparar:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;

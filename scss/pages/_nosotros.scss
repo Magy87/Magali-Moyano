@@ -10,8 +10,8 @@
     }
 
     &-cartel {
-        height: 45vh;
-        width: 140vh;
+        // height: 260px;
+        // width: 900px;
         justify-content: center;
         transition-duration: 2s;
         transition-property: all;
@@ -30,12 +30,14 @@
         flex-direction: column;
         align-items: center;
 
-        &-cartel {
-            height: 46;
-            width: 145vh;
-        }
+        // &-cartel {
+        //     // height: 46;
+        //     // width: 145vh;
+        // }
     }
 }
+
+//imagenes de galeria
 
 .nos {
     padding: 1rem 1rem 1rem;
