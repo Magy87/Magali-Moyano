@@ -10,12 +10,11 @@
     }
 
     &-cartel {
-        // height: 260px;
-        // width: 900px;
         justify-content: center;
         transition-duration: 2s;
         transition-property: all;
         transition-timing-function: linear;
+        object-fit: cover;
     }
 }
 
@@ -29,11 +28,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        // &-cartel {
-        //     // height: 46;
-        //     // width: 145vh;
-        // }
     }
 }
 
