@@ -5,6 +5,8 @@ $color-titulo: red;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit';
+    color: black;
+   
 }
 
 img {
@@ -13,7 +15,10 @@ img {
 }
 
 .colors {
-    background-color: rgb(229, 230, 231);
+    // background-color: rgb(229, 230, 231);
+    background-image: url(../img/cabezas\ de\ llaves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .titulo {
