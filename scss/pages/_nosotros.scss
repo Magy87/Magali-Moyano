@@ -1,6 +1,7 @@
 .nosotros {
     @include descrip;
     text-shadow: 2px 4px 8px white;
+    color: black;
 
     &-descripcion {
         display: flex;
@@ -12,15 +13,11 @@
 
     &-cartel {
         justify-content: center;
-        transition-duration: 2s;
-        transition-property: all;
-        transition-timing-function: linear;
+        // transition-duration: 2s;
+        // transition-property: all;
+        // transition-timing-function: linear;
         object-fit: cover;
     }
-}
-
-.nosotros-cartel:hover {
-    box-shadow: 3px 3px 2px 5px;
 }
 
 @include mq-lg {

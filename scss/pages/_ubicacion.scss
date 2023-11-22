@@ -4,8 +4,9 @@
     justify-content: space-evenly;
     gap: 1.5rem;
     padding: 1rem;
+    color: black;
     text-shadow: 2px 3px 8px white;
-    
+
     &-info {
         padding: 1rem;
         display: flex;
@@ -27,7 +28,7 @@
         .ubicacion {
             display: flex;
             text-align: start;
-            // flex-direction: column;
+             flex-direction: column;
             justify-content: space-between;
             gap: 1.5rem;
             padding: .8rem;

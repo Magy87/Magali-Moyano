@@ -5,8 +5,6 @@ $color-titulo: red;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit';
-    color: black;
-   
 }
 
 img {
@@ -26,7 +24,7 @@ img {
     color: $color-titulo;
     font-size: 1.9rem;
     font-weight: bold;
-    text-shadow: 1px 4px grey;
+    text-shadow: 1px 4px rgb(14, 13, 13);
 }
 
 @media(min-width: 1200px) {

@@ -4,13 +4,15 @@
     border-top: 2px;
     padding: 1rem;
     font-size: 12px;
-    
+// position:fixed;
+//     bottom: 0;
 
     &-lista {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: .1rem;
+        color: white;
     }
 
     &-info {

@@ -1,6 +1,7 @@
 .portada {
     @include descrip;
     text-shadow: 2px 3px 8px white;
+    color: black;
 
     &-titulo {
         color: red;

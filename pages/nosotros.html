@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <title>Taller Mecanica Bono | Historia de nuestro taller</title>
 </head>
@@ -47,12 +49,11 @@
                 </div>
             </div>
         </nav>
-
         </hedear>
         <!-- cartel del taller -->
         <main class="colors">
             <section class="container nosotros">
-                <img class="nosotros-cartel" src="../img/cartel(3).jpg" alt="cartel del taller">
+                <img class="nosotros-cartel" data-aos="zoom-in-down" src="../img/cartel(3).jpg" alt="cartel del taller">
                 <h1 class="titulo">¿QUIENES SOMOS?</h1>
                 <!-- descripción de su historia -->
                 <p class="nosotros-descrpcion">
@@ -104,10 +105,10 @@
                 <div class="footer-redes">
                     <h4>Redes Sociales</h4>
                     <ul class="redes2">
-                        <li> <a href="https://www.facebook.com/" target="_blank"> <i class="bi bi-facebook"></i></a>
-                            Facebook</li>
-                        <li> <a href="https://www.instagram.com/" target="_blank"> <i class="bi bi-instagram"></i> </a>
-                            Instagram</li>
+                        <li> <a href="https://m.facebook.com/martin.bono.376?eav=AfYEaavHnfGpYp1zeEz7U5hZ5iX3plUzqXRFuuELp_zCJpZvCQjObtsUro6YxpAvkrc&paipv=0"
+                                target="_blank"> <i class="bi bi-facebook"></i></a> Facebook</li>
+                        <li> <a href="https://www.instagram.com/mecanicabono/" target="_blank"> <i
+                                    class="bi bi-instagram"></i> </a> Instagram</li>
                         <li> <a href="https://www.whatsapp.com/" target="_blank"> <i class="bi bi-whatsapp"></i></a>
                             Whatsapp</li>
                     </ul>
@@ -120,6 +121,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
+            <script>
+                AOS.init();
+              </script>
 </body>
 
 </html>
