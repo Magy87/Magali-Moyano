@@ -4,8 +4,9 @@
     border-top: 2px;
     padding: 1rem;
     font-size: 12px;
-// position:fixed;
-//     bottom: 0;
+    // position: fixed;
+    // bottom: 0;
+    // width: 100%;
 
     &-lista {
         display: flex;
@@ -50,7 +51,7 @@
     align-items: center;
     gap: 1.3rem;
     border-top: 2px;
-    
+
 }
 
 footer-wrapper h4,

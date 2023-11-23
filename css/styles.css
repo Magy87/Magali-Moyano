@@ -367,6 +367,7 @@ footer-wrapper p {
 }
 .ubicacion {
   display: flex;
+  flex-direction: column;
   text-align: start;
   justify-content: space-evenly;
   gap: 1.5rem;
@@ -378,13 +379,13 @@ footer-wrapper p {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   gap: 1rem;
   font-size: 1rem;
 }
 .ubicacion-mapa {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   text-align: start;
   gap: 1rem;
@@ -393,7 +394,7 @@ footer-wrapper p {
   .ubicacion .ubicacion {
     display: flex;
     text-align: start;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     gap: 1.5rem;
     padding: 0.8rem;
