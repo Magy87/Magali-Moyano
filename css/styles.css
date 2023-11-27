@@ -208,8 +208,6 @@ footer-wrapper p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -322,11 +320,16 @@ footer-wrapper p {
   background-color: black;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
   gap: 2rem;
 }
-.imagenes-servicios {
+.imagenes-servicio {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
@@ -341,6 +344,8 @@ footer-wrapper p {
 @media (min-width: 1000px) {
   .imagenes-servicio {
     display: grid;
+    justify-items: center;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
   }

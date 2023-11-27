@@ -43,11 +43,16 @@
     background-color: black;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
     gap: 2rem;
 
-    &-servicios {
+    &-servicio {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items:center;
         margin-bottom: 1rem;
     }
 }
@@ -63,6 +68,8 @@
 @include mq-lg {
     .imagenes-servicio {
         display: grid;
+        justify-items: center;
+        align-items: center;
         grid-template-columns: 1fr 1fr;
         padding: 1rem;
     }
