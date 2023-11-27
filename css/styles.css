@@ -301,7 +301,6 @@ footer-wrapper p {
   text-align: center;
   list-style-type: none;
   word-spacing: 4px;
-  color: black;
   text-shadow: 2px 3px 8px white;
 }
 
@@ -343,20 +342,15 @@ footer-wrapper p {
   .imagenes-servicio {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 1rem;
   }
 }
 @media (min-width: 1000px) {
-  .elevador {
-    padding: 1rem;
-  }
   .elevador:hover {
     transform: scale(1.08);
     transition-duration: 2s;
     transition-property: all;
     transition-timing-function: ease;
-  }
-  .reparar {
-    padding: 1rem;
   }
   .reparar:hover {
     transform: scale(1.08);

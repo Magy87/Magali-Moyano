@@ -1,7 +1,7 @@
 .nosotros {
     @include descrip;
     text-shadow: 2px 4px 8px white;
-    color: black;
+    color: $color-texto;
 
     &-descripcion {
         display: flex;
@@ -13,9 +13,6 @@
 
     &-cartel {
         justify-content: center;
-        // transition-duration: 2s;
-        // transition-property: all;
-        // transition-timing-function: linear;
         object-fit: cover;
     }
 }

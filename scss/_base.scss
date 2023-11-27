@@ -1,4 +1,6 @@
 $color-titulo: red;
+$color-texto: black;
+$color-footer: white;
 
 * {
     margin: 0;
@@ -13,7 +15,6 @@ img {
 }
 
 .colors {
-    // background-color: rgb(229, 230, 231);
     background-image: url(../img/cabezas\ de\ llaves.jpg);
     background-repeat: no-repeat;
     background-size: cover;

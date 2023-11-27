@@ -4,7 +4,7 @@
     text-align: start;
     gap: 1rem;
     font-size: 1rem;
-    
+
 
     &-subtitulo {
         font-size: 1.5em;
@@ -17,7 +17,6 @@
         text-align: center;
         list-style-type: none;
         word-spacing: 4px;
-        color: black;
         text-shadow: 2px 3px 8px white;
     }
 }
@@ -54,14 +53,10 @@
 }
 
 .elevador {
-    // width: 400px;
-    // height: 200px;
     padding: 1rem;
 }
 
 .reparar {
-    // width: 500px;
-    // height: 200px;
     padding: 1rem;
 }
 
@@ -69,24 +64,14 @@
     .imagenes-servicio {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 1rem;
     }
 }
 
 @include mq-lg {
-    .elevador {
-        // width: 700px;
-        // height: 400px;
-        padding: 1rem;
-    }
 
     .elevador:hover {
         @include anima;
-    }
-
-    .reparar {
-        // width: 700px;
-        // height: 400px;
-        padding: 1rem;
     }
 
     .reparar:hover {

@@ -1,10 +1,10 @@
 .portada {
     @include descrip;
     text-shadow: 2px 3px 8px white;
-    color: black;
+    color: $color-texto;
 
     &-titulo {
-        color: red;
+        color: $color-titulo;
         display: flex;
         text-align: center;
         justify-content: center;
